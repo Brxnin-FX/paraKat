@@ -1,0 +1,87 @@
+.text{
+    width: 290px;
+    height: 300px;
+    word-wrap: break-word;
+    text-align: center;
+    margin-bottom: 150px;
+    margin-left: 20%;
+    font-size: 16pt;
+    color: rgb(0, 0, 0);
+    
+}
+header{
+    text-align: center;
+    margin-left: 30%;
+}
+main{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.title{
+
+    margin-top: 20px;
+    color: white;
+}
+img {
+    position: absolute;
+    width: 250px;
+    height: 400px;
+    border: 2px solid rgba(128, 0, 128, 0.5); /* borda roxa */
+    transition: border-color 0.3s ease, filter 0.3s ease, transform 0.3s ease; /* efeito de transição */
+}
+
+img:hover {
+    border-color: rgba(128, 0, 128, 1); /* borda roxa intensificada */
+    filter: brightness(1.2); /* aumenta o brilho */
+    transform: scale(1.1); /* aumenta o tamanho */
+}
+
+
+#image01 {
+    top: 15%;
+    left: 200%;
+}
+
+#image02 {
+    top: 30%;
+    left: 10%;
+}
+
+#image03 {
+    top: 70%;
+    left: 200%;
+}
+
+#image04 {
+    top: 100%;
+    left: 10%;
+}
+
+#image05 {
+    top: 130%;
+    left: 200%;
+}
+
+#image06 {
+    top: 160%;
+    left: 10%;
+}
+
+body {
+    background-image: url('../MEDIA/Background.png'); /* substitua pelo caminho da sua imagem */
+    background-size: cover; /* para cobrir toda a área do body */
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+main {
+    height: 1500px;
+    width: 900px;
+    padding: 20px;
+    margin-left: 150px;
+}
+
+
